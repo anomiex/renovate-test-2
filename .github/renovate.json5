@@ -1,8 +1,3 @@
 {
-    extends: [ 'config:base' ],
-    baseBranches: [ 'base-branch' ],
-    useBaseBranchConfig: 'merge',
-    packageRules: [
-    ],
-    dependencyDashboard: true,
+    extends: [ 'config:base' ]
 }

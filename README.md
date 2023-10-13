@@ -1,1 +1,1 @@
-Minimal reproduction repo for https://github.com/renovatebot/renovate/discussions/22919
+Minimal reproduction repo for TBD
