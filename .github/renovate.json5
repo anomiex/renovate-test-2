@@ -1,4 +1,10 @@
 {
-    extends: [ 'config:recommended' ],
-    postUpdateOptions: [ 'pnpmDedupe' ]
+	extends: [ 'config:recommended' ],
+	postUpdateOptions: [ 'pnpmDedupe' ],
+	packageRules: [
+		{
+			groupName: 'Group',
+			matchPackageNames: [ 'chalk', 'noop6' ],
+		},
+	],
 }
