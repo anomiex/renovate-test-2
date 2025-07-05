@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       chalk:
-        specifier: 4.0.0
-        version: 4.0.0
+        specifier: 4.1.2
+        version: 4.1.2
       noop6:
         specifier: ^1.0.0
-        version: 1.0.0
+        version: 1.0.10
 
 packages:
 
@@ -21,8 +21,8 @@ packages:
     resolution: {integrity: sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==}
     engines: {node: '>=8'}
 
-  chalk@4.0.0:
-    resolution: {integrity: sha512-N9oWFcegS0sFr9oh1oz2d7Npos6vNoWW9HvtCg5N1KRFpUhaAhvTv5Y58g880fZaEYSNm3qDz8SU1UrGvp+n7A==}
+  chalk@4.1.2:
+    resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
     engines: {node: '>=10'}
 
   color-convert@2.0.1:
@@ -36,8 +36,8 @@ packages:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
 
-  noop6@1.0.0:
-    resolution: {integrity: sha512-bSeMsAGWVq68QPvsTQR+Y87Bj7vQooQnjcuhU/RyRvkClvU4hoKAqSy1T/MKqd9b9rcQT0X14CSKaRrX6dOh2g==}
+  noop6@1.0.10:
+    resolution: {integrity: sha512-WZvuCILZFZHK+WuqCQwxLBGllkBK1ct8s8Mu9FMDbEsBE6/bqNxyFGbX7Xky+6bYFL8X2Ou4Cis4CJyrwXLvQA==}
 
   supports-color@7.2.0:
     resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
@@ -49,7 +49,7 @@ snapshots:
     dependencies:
       color-convert: 2.0.1
 
-  chalk@4.0.0:
+  chalk@4.1.2:
     dependencies:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
@@ -62,7 +62,7 @@ snapshots:
 
   has-flag@4.0.0: {}
 
-  noop6@1.0.0: {}
+  noop6@1.0.10: {}
 
   supports-color@7.2.0:
     dependencies:
