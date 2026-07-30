@@ -1,7 +1,7 @@
 {
     "dependencies": {
-        "noop6": "^1.0.0",
-        "chalk": "4.0.0"
+        "noop6": "^2.0.0",
+        "chalk": "6.0.0"
     },
     "engines": {
         "pnpm": "^9.0.0"
